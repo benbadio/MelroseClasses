@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin_tiny"
+        android:layout_marginTop="@dimen/margin_tiny"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/event_title"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:ellipsize="end"
+                android:padding="@dimen/margin_small"
+                android:textColor="#FFFFFF"
+                tools:background="@color/colorFablab"
+                tools:text="Basic Sewing: Introduction to the Sewing Machine"
+                tools:textColor="#FFFFFF"
+                />
+
+
+            <TextView
+                android:id="@+id/event_description"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_small"
+                tools:text="Ever wanted to make your own custom clothes, home decor, costumes or accessories? Join us in this basic sewing class and learn about sewing safety, basic sewing machine skills and stitching seams. Get hands-on experience as you explore the world of sewing.
+Age requirements: 13 to Adult
+
+#fabtic #sewing #tic"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

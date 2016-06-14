@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorAudio">#DE7847</color>
+    <color name="colorVideo">#9CC13E</color>
+    <color name="colorPhoto">#D95680</color>
+    <color name="colorFablab">#1AA8CC</color>
+    <color name="colorBasicTraining">#E6AB37</color>
+    <color name="colorSimulators">#956BB3</color>
+    <color name="colorOther">#A9A9A9</color>
+</resources>
